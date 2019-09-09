@@ -11,12 +11,29 @@
 #################################################################################
 
 import turtle
+wn = turtle.Screen()
+jimmy = turtle.Turtle()
+jimmy.color("black")
+jimmy.pensize(22)
+
+
+
+
+
 
 
 def function_1():
+    """Creates the box for the drawing
     """
-    Docstring for function_1
-    """
+jimmy.penup()
+jimmy.setpos(-250,250)
+jimmy.pendown()
+
+for s in range(4):
+    jimmy.forward(500)
+    jimmy.right(90)
+
+
     pass
     # ...
 
@@ -40,3 +57,4 @@ def main():
 
 main()
 
+wn.exitonclick()
