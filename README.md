@@ -2,7 +2,7 @@
 
 Name 1: Jacob Barnwell
 
-Name 2: Terry Wells
+Name 2: Taran Wells
 
 Name 3 (if needed): ____________
 
